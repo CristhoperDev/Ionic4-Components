@@ -22,6 +22,11 @@ export class InitPage implements OnInit {
       name: 'Avatar',
       redirectTo: '/avatar'
     },
+    {
+      icon: 'radio-button-on',
+      name: 'Botones y Routers',
+      redirectTo: '/buttons'
+    },
   ];
 
   constructor() { }
